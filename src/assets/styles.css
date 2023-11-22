@@ -71,19 +71,16 @@ nav a:hover, nav a:focus {
     width: 30%;
 }
 
-.home p {
-    display: flex;
-    margin-right: 600px;
-    margin-left: 170px;
-    
+.home iframe {
+    max-width: 100%;
+    height: 350px;
+    padding: 0;
 }
 
-.home iframe {
-    max-width: 30%;
-    height: 350px;
-    float: right;
-    padding-top: 150px;
-    padding-right: 30px;
+.home .content {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .home h2{
@@ -98,7 +95,7 @@ nav a:hover, nav a:focus {
 
 @media (min-width: 640px) {
     nav a {
-        font-size: 18pt;
+        font-size: 18px;
     }
 
     nav a: hover, nav a:focus {
@@ -107,5 +104,12 @@ nav a:hover, nav a:focus {
     }
     .row {
         flex-direction: row;
+    }
+
+    .home iframe {
+        max-width: 30%;
+        height: 350px;
+        padding-top: 150px;
+        padding-left: 40px;
     }
 }
