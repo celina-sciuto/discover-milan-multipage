@@ -14,6 +14,15 @@ h1 {
     line-height: normal;
 }
 
+h2 {
+    color: #000;
+    font-family: Prata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 p {
     font-family:'Manrope' , sans-serif;
     font-size: 16px;
@@ -101,9 +110,18 @@ nav a:hover, nav a:focus {
 
 /* Food Page Styles*/
 
+.food img {
+    max-width: 50%;
+}
 
 /* History Page Styles*/
 
+.history img {
+    max-width: 50%;
+}
+
+
+/* Media Queries */
 
 @media (min-width: 640px) {
     nav a {
