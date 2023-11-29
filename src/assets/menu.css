@@ -1,6 +1,6 @@
 :root {
     --header-height: 130px;
-    --menu-bg: #9ae9cf00;
+    --menu-bg: #0e2818;
 }
 
 body {
@@ -8,7 +8,7 @@ body {
     margin: 0;
 }
 
-header {
+header {https://effective-goggles-4j7r74x647v4cj7xw-8080.app.github.dev/assets/IMG_7035.jpg
     display: flex;
     flex-direction: row;
     justify-content: space-between;
