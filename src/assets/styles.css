@@ -93,6 +93,18 @@ nav a:hover, nav a:focus {
     margin-left: 170px;
 }
 
+/* Destination Page Styles*/
+
+.destination img {
+    max-width: 50%;
+}
+
+/* Food Page Styles*/
+
+
+/* History Page Styles*/
+
+
 @media (min-width: 640px) {
     nav a {
         font-size: 18px;
