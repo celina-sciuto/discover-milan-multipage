@@ -12,6 +12,16 @@ body {
 main {
     max-width: 641px;
     width: 90%;
+    margin-top: 150px;
+}
+
+a {
+    color: green;
+    transition: all 0.5s ease;
+}
+
+a:hover{
+    color: white;
 }
 
 h1, h2, h3 {
@@ -97,11 +107,12 @@ nav a:hover, nav a:focus {
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
 
 .home img {
     max-width: 600px;
-    width: 50%;
+    width: 80%;
 }
 
 .home iframe {
@@ -151,9 +162,8 @@ nav a:hover, nav a:focus {
         font-size: 18px;
     }
 
-    nav a: hover, nav a:focus {
+    nav a:hover, nav a:focus {
         font-weight: bold;
-        ;
     }
     .row {
         flex-direction: row;
@@ -164,5 +174,9 @@ nav a:hover, nav a:focus {
         height: 350px;
         padding-top: 50px;
         padding-left: 40px;
+    }
+
+    .home img {
+        width: 50%;
     }
 }
