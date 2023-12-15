@@ -53,6 +53,11 @@ footer {
     color:#ffffff
 }
 
+small {
+    font-family:'Manrope' , sans-serif;
+    font-size: 12px;
+}
+
 /* navigation styles */
 
 header {
